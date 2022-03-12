@@ -1,3 +1,4 @@
 django-image-search-f9ff8c0300dc.json
-ImageSeacher/frontend/__pycache__
-ImageSeacher/ImageSeacher/__pycache__
+ImageSearcher/frontend/__pycache__
+ImageSearcher/ImageSearcher/__pycache__
+.DS_Store
