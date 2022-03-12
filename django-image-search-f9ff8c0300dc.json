@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "django-image-search",
+  "private_key_id": "f9ff8c0300dc7f1bcc965f314c22a810c58937e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCoSmT4G82uH50B\nNH7OTTEDhFHKEi8M0b1b0ehfA4D/xK/TKE4YO6CCwh+FKJObO1CpAthiJilgVQUb\nTvHDxU3WswglZxjXVWQQ8Jk/ulLIpZJcGJxWoRMbaudxJOsEU6USw24sosPqhpL4\nnYHePh85rxHE6BAVHT0H63LO/bxhrYymvpLK7o3ziB/1SIcZBv0QiwXR9heSv3Qr\nbKrr1VeHIIyK4mG3n70yuorOKuY95a2FCjGHnEoTJErvUVDGSloDMTTf2IhdjIVb\nwDUSC865eY3d9y0J+ENNmsguI0C+LxbZVZqu0v5b4DG/qeLBYp9aD02GPbMJPqBo\n6CffhIOFAgMBAAECggEADQS6RFY0RkbESMJUl+VxR/YdtJ3M/XchKJ/3k5gMC90d\ng95vkiDUtSDKuuyNZJoFTpm9fvQ4Sa8yBq+H9M7Hy3bMh8YurgO5SrUuCbfCbSqf\nxJeTyoDJ31pY/o/uTUaiM64iEPpjYPpZlrlqgTR5imcQXxTbn6KEJN9yIXCP+NdJ\nq2EkMlunUPD7EK6pSDOdU6NvjQuWHeruVfg9C1b1VGkFm2naET85SgVXuzejp+I+\n/KFH/osTP4IKbG3w1IKwY2PsfVh/l3k3kg0jtwMNh6BYtba/VADd7ugqhCB3Qebc\nTC1qP5P6rdOf1r+21IrcRufTvbf2ADmr6ljW+zX22QKBgQDbUBNiVIOecPJ2qJH3\nFyvuGQQviDYhlVJBheuXmS2pMKIdMrGWM5Aa7G+QuE4vErY7SqQ2x8I5uvw01Pmg\nBzxXPqpHUvBj+tHi2mD/hWHW9ZmQCxtwx1Ln9Zm/t8EnECUonIO5pPHcxsGwuUVZ\noRbsBCVLY/6r9DymJGBoNqBBLQKBgQDEcVPKTCKd+u0Es3kMTx6Bqt+v5lekNk6y\nxX1JoH5q5SBMM+yaBnODKC2gUFe0M28G1Iw/tcMF7Ook8zpaHGhQjVhJ5+aETa6a\nHAq6r6GYmN8g8/Ke0kVRQY3BabjrsppJlQmazLFJSCYIOH6JcQDWWn3GuTFLXjE/\nOym/R0lSuQKBgHG/U35xhR59SFRg0+wLGZ7RXMlmZWT/tH0Ff47ORM92yO5J56+W\nqMw+CxNNdEeX9epEqW08KDGXGM4yFBJ7DkHV361EiCfi5E87oomE3Z0HHxGFoULa\nLtbeHFNCdCzVg+BPZUa5FTTD5ZvKS/zTvzbEY695epInB/nH7jS++Fk1AoGAX3op\nXICmrpwgCRHl+pqV3DYd5FOTM0gF9hPQsjFkYDYe/YqbK72I9S1ZB7sk9XuuMeaq\nh+ii8kVVBEKHkPaPqN8aE0m4G4PaIiMQ/+2PICjlAhIvUQwoDrdK27+z1jMHlE3w\nziFA5bpAaexza//VhVmUGjs2f0g3rWDnCIXwWFkCgYBjftZWjD0CF8VlkOlY1b33\nDLcpfGCieZitgAdNGR72chvhYYspgkyOHkOk58SrSoGibAR5P2nQgH7TyL3eu+I9\ntNf3dsn52nDX2f2ZycLwQPgM1wBDdkT9NZZthaIj0c3jRVOFQ0X/SreEJdwVwd8u\nbxH3q3eEzuSyv8cEKLLy6A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "django-image-search@django-image-search.iam.gserviceaccount.com",
+  "client_id": "100772754244117123370",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/django-image-search%40django-image-search.iam.gserviceaccount.com"
+}
