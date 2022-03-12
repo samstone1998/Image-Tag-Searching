@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body style="margin: 0% 10%;">
+    <div style="display:grid;justify-content:center; padding:1em 0em;">
+        <form action="" method="get">
+            <div style="display:grid;grid-template-columns: 10fr 1fr;">
+                <input type="text" value="" name="q" style="margin:0em 2em;padding:0.5em 1em;border-radius:0.25em;">
+                <input type="submit" value="Submit" style="padding:0em 1em; border:solid black 1px; background:white;">
+            </div>
+        </form> 
+    </div>
+
+    <div style="display:grid;justify-content:center; padding:1em 0em;">
+        <div style="border: solid 1px #BEBEBE; padding:20px;">
+            <form action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_table }}
+                <input type="submit" value="Submit" style="padding:0em 1em">
+            </form>
+        </div>
+    </div>
+
+    <p>Results found: {{ images.count }}</p>
+    <div style="display: grid;grid-template-columns: auto auto auto;justify-content:space-around">
+        {% for image in images%}
+            <div>
+                {% if image.image.url%}
+                <img src="{{image.image.url}}" style="width:300px;height:300px;border:solid grey 1px;margin-bottom:20px;" />
+                {% else %}
+                <img src="{{image.image.image.url}}" style="width:300px;height:300px;border:solid grey 1px; margin-bottom:20px;" />
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
