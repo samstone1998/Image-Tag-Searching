@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'ImageSearcher.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'HOST': '127.0.0.1',
+        'HOST': 'db',
         'PORT': 5432,
-        'NAME':'ImageSearchWebapp',
+        'NAME':'imagesearchwebapp',
         'USER':'postgres',
         'PASSWORD': 'mysecretpassword'
     }
@@ -135,6 +135,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'uploads') 
 MEDIA_URL = '/uploads/'
 
-CELERY_BROKER_URL = 'amqp://rabbitmq:mysecretpassword@localhost:5672'
+CELERY_BROKER_URL = 'amqp://guest:guest@rabbitmq:5672'
 CELERY_TASK_TRACK_STARTED = True
 CELERY_TASK_TIME_LIMIT = 5 * 60
