@@ -2,4 +2,7 @@ django-image-search-config.json
 ImageSearcher/frontend/__pycache__
 ImageSearcher/ImageSearcher/__pycache__
 .DS_Store
+venv
 data
+*.log
+test.py

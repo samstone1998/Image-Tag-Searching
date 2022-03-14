@@ -6,7 +6,6 @@ from django.shortcuts import redirect
 from .forms import ImageForm
 from .models import Image, Tag
 
-from celery import shared_task
 
 from .tasks import get_tags
 

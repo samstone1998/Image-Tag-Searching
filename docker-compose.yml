@@ -23,10 +23,13 @@ services:
         - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
   web:
     build: .
-    command: python3 ImageSearcher/manage.py runserver 0.0.0.0:8000
+    command: bash -c "
+            cd ImageSearcher && celery -A ImageSearcher  worker -f celery.logs --detach &&
+            python3 manage.py migrate &&  
+            python3 manage.py runserver 0.0.0.0:8000"
 
     volumes:
-      - .:/code/
+      - .:/ImageSearcher/
     ports:
       - "8000:8000"
     environment:
