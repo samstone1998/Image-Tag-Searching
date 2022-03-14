@@ -10,7 +10,13 @@ When the user uploads an image a background celery task is then started that run
 
 I have found however that sometimes Googles Vision api misses certain content or uses acronyms that a normal user would not search for.
 
-# How to run
+## How to run
+Before being able to run you need to set up Google vision api and get a json config to authenticate. To do this I recommend you follow this guide
+```
+https://cloud.google.com/vision/docs/setup
+```
+Once set up save your config in the main folder (where this README is) as **django-image-search-config.json**. We are now ready to get the docker file running.
+
 Install Docker for you system using the link below.
 ```
 https://docs.docker.com/get-docker/
@@ -36,5 +42,5 @@ Please note sometimes it can take 30 seconds or so for the image to actually app
 
 
 
-# Useful resources
+## Useful resources
 https://cloud.google.com/vision/docs/setup
